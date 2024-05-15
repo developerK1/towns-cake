@@ -1,0 +1,65 @@
+/*========================
+	MODAL
+=========================*/
+
+#notice-modal .modal-content, #mail-modal .modal-content {
+    border: 10px solid #E9A7A7;
+    padding: 0.5%;
+}
+
+#notice-modal .modal-header, #mail-modal .modal-header {
+    display: flex;
+    flex-direction: column;
+    height: 18vh;
+	color : white;
+    background-color: black;
+}
+
+#notice-modal .modal-body, #mail-modal .modal-body {
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+}
+
+#notice-modal .modal-footer, #mail-modal .modal-footer {
+    background-color: black;
+}
+.modal-open .modal {
+	background-color: #e9a7a7b3;
+}
+.modal-body form input,
+.modal-body form textarea {
+	border : 7px solid #E9A7A7 !important;
+}
+.modal-body form input {
+	min-height : 48px;
+}
+.modal-header .close,
+.modal-footer button {
+	width : 100px;
+	height : 40px ;
+	line-height : 0px;
+	text-align :center;
+	color : white;
+	font-weight : 900!important;
+	border : 3px solid red;
+}
+.modal-header .close {
+	position : absolute ;
+	top : 30px;
+	right : 30px;
+	color : black !important;
+	background-color : white !important;
+}
+.modal form button {
+	width : 180px;
+	height : 40px;
+	border-radius : 8px;
+	text-align :center;
+}
+.modal-header .close,
+.modal form button,
+.modal-footer button {
+	transition : all 0.6s ease-in-out;
+	outline : none;
+}

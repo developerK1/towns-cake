@@ -1,0 +1,236 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+main {
+  position: relative;
+}
+/* =======================
+      COLOURS
+=========================*/
+.btn-col-1 {
+  background-color: #dab544;
+  color : black;
+}
+.btn-col-2 {
+  background-color: #050907;
+  color : white;
+}
+/* =========================================
+            HEADER SECTION
+========================================== */
+header aside {
+  width : 100%;
+  height: 6vh;
+  background-color: #dd9843;
+  display :flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header article {
+  width : 100%;
+  min-height: 18vh;
+  display: flex;
+}
+header .social-links {
+  margin-right: 100px;
+}
+header .social-links a {
+  margin: 5px;
+}
+ header article .links-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+ }
+header article ul{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+header article ul li{
+  list-style: none;
+  text-align: center;
+  width : 140px;
+}
+header article ul li a {
+  width : 140px;
+  height: 100%;
+  font-weight: 700;
+  color:#006633 ;
+  transition: all 0.5s ease-in-out;
+}
+nav {
+	z-index : 1100;
+}
+/* =======================================
+        CUSTOMIZED tags
+ ======================================= */
+.flexy-cen,
+.flexy-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexy-col {
+  flex-direction: column;
+}
+.refer {
+  background: url("../assests/gallery/") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  width: 100%;
+  display: flex;
+}
+.refer .flexy-col {
+  margin: auto;
+  text-align: center;
+}
+/* =======================================
+        CUSTOMIZED HEADDINGS
+ ======================================= */
+
+ /* =======================================
+          DEFAULT COLOURS
+  ======================================= */
+ .clr1 {
+     background-color: #009933 !important;
+ 	   color : white;
+ }
+ .clr2 {
+ 	background-color: #dab544 !important;
+ 	color : #dd3c15;
+ }
+ .clr3 {
+ 	background-color: #e8e8e8 !important;
+ 	color : black;
+ }
+
+ /* =======================================
+            CUSTOMED BUTTONS
+  ======================================= */
+  button {
+    width: 130px;
+    height: 35px;
+    line-height:35px;
+    outline : none;
+    border : none;
+    transition: all 0.5s ease-in-out;
+  }
+#easy-contact button{
+  background-color: #dab544;
+}
+#easy-contact .adress button {
+  width : 160px;
+  height : 50px;
+  margin : 10px;
+  background-color :black;
+  color :white;
+}
+#easy-contact button {
+ background-color: #dab544;
+}
+#why-choose button {
+  font-family: assistant,Sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  fill: #fff;
+  color: #fff;
+  background-color: #dd9843;
+  border-radius: 30px 30px 30px 30px;
+  width: 177px;
+  height: 62px;
+}
+#our-flavours button {
+  color: #ffffff !important;
+  background-color: #e6a84b;
+}
+#home-hero #next {
+  background-color: #867321;
+  color: white;
+  position: absolute;
+  top: 50%;
+  z-index: 100;
+  right: 0px;
+  transform: rotate(90deg) translateY(-50%);
+  border : none;
+}
+#home-hero #prev {
+  background-color: #867321;
+  color: white;
+  top: 50%;
+  z-index: 100;
+  position: absolute;
+  left: 0px;
+  transform: rotate(-90deg) translateY(-50%);
+  border : none;
+}
+
+/* =======================================
+           HOVER ACTIVE FOCUS
+ ======================================= */
+ .move-up-icon img:hover {
+  transform : rotate(0deg);
+  opacity : 1;
+}
+.cust-header h3:hover ,
+ .cust-footer h3:hover {
+  font-size : 40;
+  font-weight: 900;
+}
+#functionality aside .flexy-cen button ,
+.cust-modal aside .flexy-cen button {
+  width: 100px;
+  background-color: #ffaa42;
+  outline: none;
+  border-radius: 9px;
+}
+#home-hero #prev:hover,
+#home-hero #prev:hover{
+  background-color: #050907;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 2px;
+  outline :none;
+}
+#home-hero #prev:active,
+#home-hero #prev:active{
+  border : none!important;
+}
+header article ul li a:hover {
+  color: #FF9800 !important;
+  text-decoration: underline;
+
+}
+/* =========================================
+             IMAGES SECTION
+ ========================================== */
+ header .social-links img {
+  height: 28px;
+  width: 33px;
+}
+header article img {
+  width: 113px;
+  margin-left: 20px;
+}
+.footer-links img {
+  width : 200px;
+}
+#cust-modal img {
+  margin: 5px auto;
+  transform: translateX(35px);
+}
+.cust-modal aside .flexy-cen button:hover ,
+#functionality aside .flexy-cen button:hover {
+    background-color: #67f757;
+  letter-spacing : 2px;
+  font-weight: 700;
+}
