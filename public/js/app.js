@@ -116,7 +116,7 @@ navLinkItems.forEach( link =>{
 
 function closeSetUP(){
   setTimeout(()=> navLinks.classList.remove("open-hamburder"), 500);
-
+console.log("closed set up ran")
   hamburgerLines[0].classList.remove("upperline");
   hamburgerLines[1].classList.remove("middleline");
   hamburgerLines[2].classList.remove("lowerline");
